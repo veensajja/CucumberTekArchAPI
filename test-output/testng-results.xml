@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11106" started-at="2022-02-23T22:40:23 PST" finished-at="2022-02-23T22:40:34 PST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.com.RunnerTekArch@45820e51]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="11106" started-at="2022-02-23T22:40:23 PST" finished-at="2022-02-23T22:40:34 PST">
+      <class name="com.runner.com.RunnerTekArch">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.com.RunnerTekArch@45820e51]" name="setUpClass" is-config="true" duration-ms="247" started-at="2022-02-23T22:40:23 PST" finished-at="2022-02-23T22:40:24 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3af7d855]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.com.RunnerTekArch@45820e51]" name="runScenario" duration-ms="2598" started-at="2022-02-23T22:40:24 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-23T22:40:26 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to TekArch"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test TekArchAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.com.RunnerTekArch@45820e51]" name="runScenario" duration-ms="333" started-at="2022-02-23T22:40:26 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-23T22:40:27 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user on TekArch"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test TekArchAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.com.RunnerTekArch@45820e51]" name="runScenario" duration-ms="7885" started-at="2022-02-23T22:40:27 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-23T22:40:34 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get user from TekArch"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test TekArchAPI]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.com.RunnerTekArch@45820e51]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2022-02-23T22:40:34 PST" finished-at="2022-02-23T22:40:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.com.RunnerTekArch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
